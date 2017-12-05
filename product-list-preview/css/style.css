@@ -19,7 +19,7 @@ body {
     display: inline-block;
     background: no-repeat;
     background-position: center center;
-    width: 19%;
+    /*    width: 19%;*/
     height: 250px;
     position: relative;
     margin: 3vh;
@@ -27,23 +27,24 @@ body {
 }
 
 .background1 {
-    background-image: url(/img/product-1.jpg);
+    background-image: url(../img/product-1.jpg);
+    width: 19%;
 
 }
 
 .background2 {
-    background-image: url(/img/product-2.jpg);
-
+    background-image: url(../img/product-2.jpg);
+    width: 19%;
 }
 
 .background3 {
-    background-image: url(/img/product-3.jpg);
-
+    background-image: url(../img/product-3.jpg);
+    width: 19%;
 }
 
 .background4 {
-    background-image: url(/img/product-4.jpg);
-
+    background-image: url(../img/product-4.jpg);
+    width: 19%;
 }
 
 .content {
